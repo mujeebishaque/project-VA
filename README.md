@@ -79,18 +79,33 @@ visualization dashboard with limited interaction and no analytics
 implemented`
 
 # Avoid Pitfalls:
+
 • Not standard color encodings (2 points penalty)
+
 • Missing legend(s) (2 points penalty)
+
 • Scrollable views not justified by design constraints (2 points penalty)
+
 • Too strong reuse of existing solutions (2 points penalty)
+
 • Examples of past good and bad projects have been presented during the course
+
 . Missing dimensionality reduction (the project is not evaluated)
+
 • Missing two coordinated visualizations (5 points penalty)
+
 • Missing related work (5 points penalty)
+
 • Dimensionality reduction NOT integrated in the analysis flow (2 points penalty)
+
 • Not standard color encodings (2 points penalty)
+
 • Missing legends (2 points penalty)
+
 • Scrollable views not justified by design constraints (2 points penalty)
+
 • Too strong reuse of existing solutions (2 points penalty)
+
 • Missing insights (2 points penalty)
+
 • Missing intended system user (2 points penalty)
