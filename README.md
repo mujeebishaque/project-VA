@@ -24,8 +24,11 @@
 1 - Every assignment must use a PCA or MDS or t-SNE algorithm in order to
     preprocess the dataset for choosing the right dimensions.
     Having it integrated as analytics part.
+    
 2 - Dimensionality reduction not integrated with the analysis flow will cause a penalty of 2 points.
+
 3 - Mandatory - Visualization: Every assignment must have visual part with atleast 2 visualizations but need to be interactive.
+
 > `4 - Analytics: every assignment MUST contain at least 1 computation that is
 triggered by user visual interactions (no change in the dataset, no simple filter, no
 simple selection from a menu)
@@ -68,12 +71,16 @@ is contained in the range 10000 – 50000 (and more for the braves.....)
 # What's Needed?
 
 1 - Running software
+
 2 - A relation similar to a scientific paper that describes the whole design process, retionale, and prototype, comprehensive related work section that descibes the related papers and the discovered insigts in the a specific section.
+
 3 - A powerpoint presentation describing the goal of the homework, the data structure, and the chosen visualizations(without interactions).
 
 # What's exam?
 1 - Preseting the powerpoint material.
+
 2 - Giving a live demo of the system.
+
 3 - Answering questions on the both presentation and demo.
 
 # Evaluation Criteria
