@@ -11,9 +11,13 @@
 - Preliminary proposal is required before starting. An email to Prof. Santucci and Dr. Angelini in cc is required. It must be a one page draft with following information:
 
 . Specify the dataset (characteristics and context).
+
 . Specify the general idea.
+
 . Specify the used analytics.
+
 . A mockup of the user interface.
+
 . Specify various characteristics in relation to the visual analytics cycle.
 
 ### Characteristics
