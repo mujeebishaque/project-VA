@@ -4,9 +4,9 @@ from django.views.generic import View
 
 class IndexView(View):
     def get(self, request):
-        template = 'analytics'
+        template = 'index.html'
         return render(request, template, context={})
     
     def post(self, request):
-        tempalte = 'analytics'
+        template = 'index.html'
         return render(request, template, context={})

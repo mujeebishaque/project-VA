@@ -1,6 +1,6 @@
 from django.urls import path
-from analytics import views
+from visuals import views
 
 urlpatterns = [
-    path('/', views.index, name='index'),
+    path('/index/', views.IndexView.as_view(), name='index'),
 ]
