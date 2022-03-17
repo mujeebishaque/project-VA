@@ -1,12 +1,15 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Solid Template</title>
+    <title>Visual Analytics</title>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -18,8 +21,8 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
 							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                            </a>
+								<img class="header-logo-image" src="{% static '/images/sapienza_logo_rm.png' %}" width=80 height=100 alt="Logo" style='background-color: white;'>
+                            </a> <h4>La Sapienza Universita</h4>
                         </h1>
                     </div>
                 </div>
@@ -31,9 +34,11 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="#">Pre order now</a><a class="button" href="#">Get in touch</a></div>
+	                        <h1 class="hero-title mt-0">Visual Analytics</h1>
+	                        <p class="hero-paragraph">A course by Prof. Giuseppe Santacci @ Sapienza University Of Rome</p>
+	                        <div class="hero-cta">
+                                <a class="button button-primary" href="https://www.kaggle.com/yomnanasseryounis/energy-consumption-data-visualization-tutorial/data">Dataset Source</a>
+                                <a class="button" href="#">Github Link</a></div>
 						</div>
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -61,7 +66,7 @@
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+										<img src="{% static '/images/feature-icon-01.svg' %}" alt="Feature 01">
                                     </div>
                                     <h4 class="feature-title mt-24">Be Productive</h4>
                                     <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
@@ -70,7 +75,7 @@
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
+										<img src="{% static '/images/feature-icon-02.svg' %}" alt="Feature 02">
                                     </div>
                                     <h4 class="feature-title mt-24">Be Productive</h4>
                                     <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
@@ -223,6 +228,6 @@
         </footer>
     </div>
 
-    <script src="dist/js/main.min.js"></script>
+    <script src="{% static '/js/main.min.js' %}"></script>
 </body>
 </html>
